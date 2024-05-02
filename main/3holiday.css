@@ -1,0 +1,58 @@
+.holiday{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+/* extra */
+.extra{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.holi-col{
+    flex-basis:31%;
+    background: rgba(177, 177, 177, 0.522);
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.holi-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.holi-col p{
+    padding: 0;
+}
+.holi-col h3{
+    margin: top 16px ;
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+.holi-col:hover{
+    color: whitesmoke;
+    transform: scale(1.1);
+    background: rgba(0, 0, 0, 0.71);
+}
+.hrow{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.holi-col .read{
+    color: black;
+    text-align: left;
+    text-decoration: none;
+}
+.holi-col .read:hover{
+    color: whitesmoke;
+}
+.holiday h1{
+    font-size: 3.5rem;
+    line-height: 4rem;
+    font-weight:600;
+}
